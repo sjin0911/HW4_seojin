@@ -1,0 +1,37 @@
+cd q2
+git init
+
+git add A.txt
+git commit -m "A"
+
+git checkout -b develop
+
+git checkout main
+
+git add C.txt
+git commit -m "C"
+
+git checkout develop
+
+git add B.txt
+git commit -m "B"
+
+git checkout main
+git merge develop
+
+git add D.txt
+git commit -m "D"
+
+git checkout develop 
+
+git add E.txt
+git commit -m "E"
+
+git checkout main
+
+git merge develop
+
+git add F.txt
+git commit -m "F"
+
+git checkout develop
